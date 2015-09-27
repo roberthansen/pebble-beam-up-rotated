@@ -1,0 +1,52 @@
+{
+    "appKeys": {
+        "PERSIST_KEY_ANIM": 2,
+        "PERSIST_KEY_BATTERY": 4,
+        "PERSIST_KEY_BT": 3,
+        "PERSIST_KEY_DATE": 1,
+        "PERSIST_KEY_HOURLY": 5,
+        "PERSIST_KEY_INVERTED": 0,
+        "PERSIST_KEY_THEME": 6
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Chris Lewis (RAHansen)",
+    "longName": "Beam-Up Update",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/bt-bar-inv.png",
+                "name": "BT_INV",
+                "type": "png"
+            },
+            {
+                "file": "images/pebble-menu-beam-update.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/bt-bar.png",
+                "name": "BT",
+                "type": "png"
+            },
+            {
+                "file": "fonts/imagine.ttf",
+                "name": "FONT_IMAGINE_24",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "BeamUpdate",
+    "targetPlatforms": [
+        "aplite"
+    ],
+    "uuid": "67ca694e-9543-41ce-8db3-3d4896e2fbd3",
+    "versionLabel": "2.7",
+    "watchapp": {
+        "watchface": true
+    }
+}
